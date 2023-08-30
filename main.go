@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	myFigure := figure.NewColorFigure("bdaddinovehicletracking is Awesome!!!", "larry3d", "yellow", true)
+	myFigure := figure.NewColorFigure("bdaddinovehicletracking is Awesome!!!", "larry3d", "brown", true)
 	myFigure.Print()
 
 	if secret := os.Getenv("SECRET"); secret != "" {
